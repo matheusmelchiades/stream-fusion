@@ -28,9 +28,14 @@
         "PKief.material-icon-theme",
         "dracula-theme.theme-dracula",
         "SeyyedKhandon.firacode"
-      ]
+      ],
+      "settings": {
+        "workbench.colorTheme": "Dracula",
+        "workbench.iconTheme": "material-icon-theme",
+        "editor.fontFamily": "Fira Code"
+      }
     }
-  },
+  }
 
   // Uncomment to connect as root instead. More info: https://aka.ms/dev-containers-non-root.
   // "remoteUser": "root"
