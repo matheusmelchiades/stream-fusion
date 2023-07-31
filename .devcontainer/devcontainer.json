@@ -12,7 +12,7 @@
   },
 
   "remoteEnv": {
-	"GOOGLE_APPLICATION_CREDENTIALS": "${localEnv:GOOGLE_APPLICATION_CREDENTIALS}"
+	"GOOGLE_APPLICATION_CREDENTIALS_JSON": "${localEnv:GOOGLE_APPLICATION_CREDENTIALS_JSON}"
   },
 
   // Use 'forwardPorts' to make a list of ports inside the container available locally.
@@ -22,7 +22,15 @@
   // "postCreateCommand": "yarn install",
 
   // Configure tool-specific properties.
-  // "customizations": {},
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "PKief.material-icon-theme",
+        "dracula-theme.theme-dracula",
+        "SeyyedKhandon.firacode"
+      ]
+    }
+  },
 
   // Uncomment to connect as root instead. More info: https://aka.ms/dev-containers-non-root.
   // "remoteUser": "root"
