@@ -1,0 +1,19 @@
+{
+  "name": "stream-fusion",
+  "version": "1.0.0",
+  "description": "StreamFusion is an initiative aimed at live-streaming content on digital platforms.",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "web": "npx http-server ./web",
+    "server": "nodemon ./src/server"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "http-server": "^14.1.1",
+    "nodemon": "^3.0.1"
+  }
+}
